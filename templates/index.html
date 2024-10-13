@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSA Search Engine</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- Add Plotly for the chart -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Latent Semantic Analysis (LSA) Search Engine</h1>
+    <form id="search-form">
+        <input type="text" id="query" placeholder="Enter search query" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="results"></div>
+    <!-- This is where the bar chart will be rendered -->
+    <div id="similarity-chart"></div>
+
+    <script src="/static/main.js"></script>
+</body>
+</html>
